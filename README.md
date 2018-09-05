@@ -1,6 +1,6 @@
 # Project 1 - *Flix_demo_03*
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix App** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **1** hours spent in total
 
