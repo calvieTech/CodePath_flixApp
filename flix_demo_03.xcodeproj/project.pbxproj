@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3E20553C213D6EDD00920022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20553B213D6EDD00920022 /* AppDelegate.swift */; };
-		3E20553E213D6EDD00920022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20553D213D6EDD00920022 /* ViewController.swift */; };
 		3E205541213D6EDD00920022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E20553F213D6EDD00920022 /* Main.storyboard */; };
 		3E205543213D6EDF00920022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E205542213D6EDF00920022 /* Assets.xcassets */; };
 		3E205546213D6EDF00920022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E205544213D6EDF00920022 /* LaunchScreen.storyboard */; };
 		3E205551213D6EDF00920022 /* flix_demo_03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E205550213D6EDF00920022 /* flix_demo_03Tests.swift */; };
 		3E20555C213D6EDF00920022 /* flix_demo_03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20555B213D6EDF00920022 /* flix_demo_03UITests.swift */; };
+		3E20556A213D904400920022 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E205569213D904400920022 /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3E205538213D6EDD00920022 /* flix_demo_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_demo_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E20553B213D6EDD00920022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E20553D213D6EDD00920022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E205540213D6EDD00920022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E205542213D6EDF00920022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E205545213D6EDF00920022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3E205557213D6EDF00920022 /* flix_demo_03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flix_demo_03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E20555B213D6EDF00920022 /* flix_demo_03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flix_demo_03UITests.swift; sourceTree = "<group>"; };
 		3E20555D213D6EDF00920022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E205569213D904400920022 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		3E20553A213D6EDD00920022 /* flix_demo_03 */ = {
 			isa = PBXGroup;
 			children = (
+				3E205569213D904400920022 /* NowPlayingViewController.swift */,
 				3E20553B213D6EDD00920022 /* AppDelegate.swift */,
-				3E20553D213D6EDD00920022 /* ViewController.swift */,
 				3E20553F213D6EDD00920022 /* Main.storyboard */,
 				3E205542213D6EDF00920022 /* Assets.xcassets */,
 				3E205544213D6EDF00920022 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E20553E213D6EDD00920022 /* ViewController.swift in Sources */,
+				3E20556A213D904400920022 /* NowPlayingViewController.swift in Sources */,
 				3E20553C213D6EDD00920022 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
