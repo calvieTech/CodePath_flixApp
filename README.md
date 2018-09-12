@@ -44,7 +44,7 @@ I couldn't seem to finish the last user story
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Calvin Thang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
