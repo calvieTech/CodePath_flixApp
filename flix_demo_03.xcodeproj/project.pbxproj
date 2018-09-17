@@ -16,6 +16,8 @@
 		3E20556A213D904400920022 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E205569213D904400920022 /* NowPlayingViewController.swift */; };
 		3E386788214427C80025D131 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E386787214427C80025D131 /* MovieCell.swift */; };
 		3EFB8061215055D1007A772A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB8060215055D1007A772A /* DetailViewController.swift */; };
+		3EFB806321505DC4007A772A /* posterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB806221505DC4007A772A /* posterCell.swift */; };
+		3EFB806521505E1F007A772A /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB806421505E1F007A772A /* SuperHeroViewController.swift */; };
 		6B12600E25B6D183F671A24C /* Pods_flix_demo_03UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA29BC33A957223DCF399F56 /* Pods_flix_demo_03UITests.framework */; };
 		8FCB1DCF7DEB00C311EB9431 /* Pods_flix_demo_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093E9EFF5B790A5863ECAA8B /* Pods_flix_demo_03.framework */; };
 		EEE8200E30E7C4900CB060C3 /* Pods_flix_demo_03Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFDCABC164E1A46AC2A5144 /* Pods_flix_demo_03Tests.framework */; };
@@ -56,6 +58,8 @@
 		3E205569213D904400920022 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		3E386787214427C80025D131 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		3EFB8060215055D1007A772A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EFB806221505DC4007A772A /* posterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posterCell.swift; sourceTree = "<group>"; };
+		3EFB806421505E1F007A772A /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
 		5FA573AEE4F9DB7D5618995A /* Pods-flix_demo_03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo_03.release.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo_03/Pods-flix_demo_03.release.xcconfig"; sourceTree = "<group>"; };
 		734129C4C71DE2A640FA6F09 /* Pods-flix_demo_03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo_03.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo_03/Pods-flix_demo_03.debug.xcconfig"; sourceTree = "<group>"; };
 		7AFDCABC164E1A46AC2A5144 /* Pods_flix_demo_03Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_demo_03Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				3E386787214427C80025D131 /* MovieCell.swift */,
+				3EFB806221505DC4007A772A /* posterCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			children = (
 				3EFB8060215055D1007A772A /* DetailViewController.swift */,
 				3E205569213D904400920022 /* NowPlayingViewController.swift */,
+				3EFB806421505E1F007A772A /* SuperHeroViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -407,7 +413,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFB806521505E1F007A772A /* SuperHeroViewController.swift in Sources */,
 				3E20556A213D904400920022 /* NowPlayingViewController.swift in Sources */,
+				3EFB806321505DC4007A772A /* posterCell.swift in Sources */,
 				3E20553C213D6EDD00920022 /* AppDelegate.swift in Sources */,
 				3E386788214427C80025D131 /* MovieCell.swift in Sources */,
 				3EFB8061215055D1007A772A /* DetailViewController.swift in Sources */,
