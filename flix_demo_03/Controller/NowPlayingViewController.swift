@@ -16,7 +16,6 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
 
-    
 
 
     var movies: [[String: Any]] = []
